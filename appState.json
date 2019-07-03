@@ -1,0 +1,85 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "da66a6b8-cd86-42e7-89d8-5432855b9bf4": {
+        "id": "da66a6b8-cd86-42e7-89d8-5432855b9bf4",
+        "parent": null,
+        "name": "fef",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "04dbe91d-4723-4af8-a15d-c518e32e4c42"
+        ],
+        "isRemovable": false,
+        "filePath": "fef"
+      },
+      "04dbe91d-4723-4af8-a15d-c518e32e4c42": {
+        "id": "04dbe91d-4723-4af8-a15d-c518e32e4c42",
+        "parent": "da66a6b8-cd86-42e7-89d8-5432855b9bf4",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "fef/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [],
+        "testCases": {
+          "b05c1c7c-cd3c-43f9-acc7-f280c2bd7e34": {
+            "id": "b05c1c7c-cd3c-43f9-acc7-f280c2bd7e34",
+            "name": "Unnamed event",
+            "functionId": "04dbe91d-4723-4af8-a15d-c518e32e4c42",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "da66a6b8-cd86-42e7-89d8-5432855b9bf4",
+    "openFiles": [
+      "04dbe91d-4723-4af8-a15d-c518e32e4c42"
+    ],
+    "currentFileId": "04dbe91d-4723-4af8-a15d-c518e32e4c42",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "fef",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1562139126071
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "fef",
+      "url": "https://github.com/zgma-test/fef"
+    }
+  }
+}
